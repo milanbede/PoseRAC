@@ -1,0 +1,294 @@
+{
+ "generated_at": "2026-09-20T01:01:00.920696+00:00",
+ "dataset": {
+  "classes": [
+   "front_raise",
+   "pull_up",
+   "squat",
+   "bench_pressing",
+   "jump_jack",
+   "situp",
+   "push_up",
+   "pommelhorse",
+   "jab"
+  ],
+  "examples": 6072,
+  "parts": {
+   "own_test": 18,
+   "own_train": 280,
+   "repcount_train": 5182,
+   "repcount_val": 592
+  },
+  "positive_salient1_per_class": {
+   "front_raise": 359,
+   "pull_up": 328,
+   "squat": 518,
+   "bench_pressing": 181,
+   "jump_jack": 394,
+   "situp": 224,
+   "push_up": 494,
+   "pommelhorse": 443,
+   "jab": 50
+  },
+  "own_pairs_per_recording": {
+   "07cccb34b09135541862bd5560d02a5ad1b43dc11af8db99cc135756e230c68b": 0,
+   "1648b8963de646fd4ed3515e49ada9507750b1f6ee10ddd1f18a79c71a6b32cd": 0,
+   "170f55c083ec3d9b83a48303e5172e4a072d1f6086edf966776439d27d27c67f": 0,
+   "1c9c56ae618d20e2b19897daf0c068e9603c18da44e868e3bc3ba8851dae0927": 20,
+   "26cfa8dc222512010f68c163eb5e4553b0c84d34618a2c17aa20423a684061d8": 20,
+   "272f0b05db783c83e4ed00d64283dc3e4043ec794a0e5c3e59132f853d8bbe06": 18,
+   "2e319d64ae4205969e08f2bfd369039b423adf06c7219012496a11fbd40cbb77": 0,
+   "3342e99482600bc17aa267506f5cb5f9f5854ef323f3bd7a1b8b6cad959dc2e9": 20,
+   "3386f05e00c0f6dc77522d74520896337465dd0cd33684436f567f7319b30d09": 0,
+   "395bd71a8fd54a3d8cd7817a0e8e834233b43f0e8ae7b35911b8da3c582c8415": 0,
+   "48227932cfcf276b58eda8ecd853448bf093a69b11e055723ed7e111850ef4ce": 0,
+   "583835804155ff134863c00b07a5e412d4860ec6dfe83ea34c019d784567373e": 20,
+   "5ba6c754d4b5a8b62bb6cc4f0d7801dd1e5a9387c64fa50ac3b9681afcd5282a": 0,
+   "75943d489a68173f61319ca43b744dbcb436719e70f1a58f9f33e05f7a1783e9": 20,
+   "84cddbc84f8d5803d3df68ce5f21d9c4dfaeec12c926a972aa82ab468efe0ea1": 20,
+   "88138b8c8a2026ad595e3d25580a5108cf8043c55c6b34c60dc7dbeadcc04409": 0,
+   "916fbf42a801a2855ed24e729fab6803dc1b729c137b9e20b8331270043767c3": 20,
+   "91ff69eac9384df704853745ecfaac7b8df16b02b03cbfc7803b2dafedbf5772": 0,
+   "939a9b18254311ac885a258a2087378e17daed383b803072d3d2a7452a08d5af": 0,
+   "94a87f4ef3e47d820281630e28ccaf25850f98416639386ebdc4efff2848335b": 24,
+   "a9ef8f2a2881d38109511d820f2a3ad8cab9d0c79c7fc0d49c7375fdbf08d3f1": 20,
+   "b457c31af6ae3317539443a6addb1dbba6c3cfafbb09b27996e8b9fcdb682e7f": 0,
+   "b666979ff4e390e584374c56f7c6f112aed46aa99bbc3619f8ccc7eb58eb2104": 20,
+   "c7f59132be29f5f9b88b19131bc0285d95c098a6e0ef5955a88cea6fbd7c0b65": 20,
+   "e7db31da5ea6b1d4d7ecbb77b8cc3920d61e0f8b40d3a308647949fae02e01cc": 18,
+   "ee448c707852f002b5d08be793f34ea982bc7225412f54620556f77112ab7bf2": 0,
+   "f500c510e00c913db0c3763b1466cfdd7356d48d2fa20b334a8f82909e02e51a": 0,
+   "fa433dbeca26efdc8ab2dbd55e7d3b040fc8b7eebc52a24317206f9cadbaa376": 18,
+   "fff2d485ba9e550e33ed13cfd9b88751a1b43c4c7afbf4204987493a58492e5e": 20
+  },
+  "holdout_videos": [
+   "stu10_20.mp4",
+   "stu10_23.mp4",
+   "stu10_51.mp4",
+   "stu11_23.mp4",
+   "stu11_28.mp4",
+   "stu12_11.mp4",
+   "stu12_22.mp4",
+   "stu13_9.mp4",
+   "stu1_2.mp4",
+   "stu1_21.mp4",
+   "stu2_22.mp4",
+   "stu2_28.mp4",
+   "stu2_43.mp4",
+   "stu2_49.mp4",
+   "stu2_71.mp4",
+   "stu2_9.mp4",
+   "stu3_23.mp4",
+   "stu3_32.mp4",
+   "stu3_4.mp4",
+   "stu3_49.mp4",
+   "stu3_62.mp4",
+   "stu3_67.mp4",
+   "stu3_72.mp4",
+   "stu4_10.mp4",
+   "stu4_18.mp4",
+   "stu4_26.mp4",
+   "stu4_33.mp4",
+   "stu4_39.mp4",
+   "stu4_60.mp4",
+   "stu5_14.mp4",
+   "stu5_46.mp4",
+   "stu5_65.mp4",
+   "stu6_49.mp4",
+   "stu7_39.mp4",
+   "stu7_46.mp4",
+   "stu9_15.mp4",
+   "stu9_28.mp4",
+   "stu9_33.mp4",
+   "stu9_35.mp4",
+   "stu9_42.mp4",
+   "stu9_53.mp4",
+   "stu9_65.mp4",
+   "test528.mp4",
+   "test555.mp4",
+   "train1678.mp4",
+   "train186.mp4",
+   "train2649.mp4",
+   "val1256.mp4"
+  ],
+  "holdout_fraction": 0.1,
+  "seed": 42,
+  "sha256": "da1e7f608ed390ccb4ecca9c1e138700308177a08a16d5b2b50767e964aa2081"
+ },
+ "extraction_provenance": {
+  "detector": {
+   "provider": "rtmpose",
+   "variant": "rtmpose-performance",
+   "model_sha256": "ab02c7ac9a66a7545a1c5a9dfb2d0fcc06c4647449e731da32bdde49c4cc1b66",
+   "models": {
+    "det": {
+     "filename": "yolox_x_8xb8-300e_humanart-a39d44ed.onnx",
+     "sha256": "8e9ea96a176bd48501eaaa77216e49ee30794d2f8ba80c7b9862beca4ea972da"
+    },
+    "pose": {
+     "filename": "rtmpose-x_simcc-body7_pt-body7_700e-384x288-71d7b7e9_20230629.onnx",
+     "sha256": "df0c0fa91e9870b1515dcaff741fd76cc753dcfb12786862f61b243bae81cd52"
+    }
+   },
+   "rtmlib_version": "0.0.16",
+   "onnxruntime_version": "1.22.1",
+   "execution_providers": [
+    "CoreMLExecutionProvider",
+    "CPUExecutionProvider"
+   ],
+   "detect_stride": 3,
+   "min_joint_score": 0.3,
+   "native_skeleton": "coco-17",
+   "confidence": "keypoint score"
+  },
+  "assets": {
+   "det": "/Users/milan-bede/.local/share/ws-data/models/rtmpose/det/yolox_x_8xb8-300e_humanart-a39d44ed.onnx",
+   "pose": "/Users/milan-bede/.local/share/ws-data/models/rtmpose/pose/rtmpose-x_simcc-body7_pt-body7_700e-384x288-71d7b7e9_20230629.onnx"
+  },
+  "fingerprint": "ab02c7ac9a66a7545a1c5a9dfb2d0fcc06c4647449e731da32bdde49c4cc1b66"
+ },
+ "model_config": {
+  "dim": 34,
+  "heads": 2,
+  "enc_layer": 6,
+  "num_classes": 9,
+  "classes": [
+   "front_raise",
+   "pull_up",
+   "squat",
+   "bench_pressing",
+   "jump_jack",
+   "situp",
+   "push_up",
+   "pommelhorse",
+   "jab"
+  ],
+  "alpha": 0.0,
+  "lr": 0.001,
+  "own_weight": 4.0,
+  "seed": 42,
+  "batch_size": 64,
+  "exclude": null,
+  "include_holdout": true,
+  "dataset_sha256": "da1e7f608ed390ccb4ecca9c1e138700308177a08a16d5b2b50767e964aa2081"
+ },
+ "repcount_test": {
+  "videos": 152,
+  "oracle_mae": 0.20345805406390324,
+  "oracle_obo": 0.6381578947368421,
+  "predicted_class_mae": 0.5015271134285929,
+  "predicted_class_obo": 0.4605263157894737,
+  "gt_class_mae": 0.4557805602795028,
+  "gt_class_obo": 0.4580152671755725,
+  "oracle_class_matches_gt_type": 0.5197368421052632
+ },
+ "repcount_holdout": null,
+ "own_loro": {
+  "jab": {
+   "recordings": 4,
+   "reference_reps": 41,
+   "predicted_reps": 35,
+   "mae": 0.12499999998958333,
+   "obo": 0.75,
+   "f1": 0.9166666666666666,
+   "precision": 1.0,
+   "recall": 0.875
+  },
+  "jumping_jack": {
+   "recordings": 5,
+   "reference_reps": 50,
+   "predicted_reps": 55,
+   "mae": 0.09999999999,
+   "obo": 0.8,
+   "f1": 0.96,
+   "precision": 0.9333333333333332,
+   "recall": 1.0
+  },
+  "push_up": {
+   "recordings": 5,
+   "reference_reps": 49,
+   "predicted_reps": 38,
+   "mae": 0.21999999997800002,
+   "obo": 0.6,
+   "f1": 0.6363636363636364,
+   "precision": 0.8138888888888889,
+   "recall": 0.6088888888888888
+  }
+ },
+ "own_test": {
+  "recordings": 3,
+  "predicted_reps": 25,
+  "reference_reps": 9,
+  "f1": 0.3333333333333333,
+  "count_errors": {
+   "1648b896": 6,
+   "2e319d64": 10,
+   "fa433dbe": 0
+  },
+  "rows": [
+   {
+    "source_id": "1648b8963de646fd4ed3515e49ada9507750b1f6ee10ddd1f18a79c71a6b32cd",
+    "exercise": "jab",
+    "split": "test",
+    "frames": 299,
+    "valid_frames": 299,
+    "predicted_count": 6,
+    "reference_count": 0,
+    "count_error": 6,
+    "mae": 6000000000.0,
+    "obo": 0.0,
+    "timing": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "matched": 0,
+     "predicted": 6,
+     "reference": 0,
+     "mean_timing_error_us": null
+    }
+   },
+   {
+    "source_id": "2e319d64ae4205969e08f2bfd369039b423adf06c7219012496a11fbd40cbb77",
+    "exercise": "jumping_jack",
+    "split": "test",
+    "frames": 423,
+    "valid_frames": 423,
+    "predicted_count": 10,
+    "reference_count": 0,
+    "count_error": 10,
+    "mae": 10000000000.0,
+    "obo": 0.0,
+    "timing": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "matched": 0,
+     "predicted": 10,
+     "reference": 0,
+     "mean_timing_error_us": null
+    }
+   },
+   {
+    "source_id": "fa433dbeca26efdc8ab2dbd55e7d3b040fc8b7eebc52a24317206f9cadbaa376",
+    "exercise": "jab",
+    "split": "test",
+    "frames": 226,
+    "valid_frames": 226,
+    "predicted_count": 9,
+    "reference_count": 9,
+    "count_error": 0,
+    "mae": 0.0,
+    "obo": 1.0,
+    "timing": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "matched": 9,
+     "predicted": 9,
+     "reference": 9,
+     "mean_timing_error_us": 255214.33333333334
+    }
+   }
+  ]
+ }
+}

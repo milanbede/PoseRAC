@@ -1,0 +1,4623 @@
+{
+ "params": {
+  "jab": {
+   "enter": 0.25,
+   "exit": 0.4,
+   "momentum": 0.0
+  },
+  "jumping_jack": {
+   "enter": 0.25,
+   "exit": 0.1,
+   "momentum": 0.4
+  },
+  "push_up": {
+   "enter": 0.25,
+   "exit": 0.15,
+   "momentum": 0.0
+  }
+ },
+ "results": {
+  "jab": {
+   "best": {
+    "enter": 0.25,
+    "exit": 0.4,
+    "momentum": 0.0,
+    "recordings": 4,
+    "mean_abs_error": 1.5,
+    "mean_mae": 0.12499999998958333,
+    "mean_f1": 0.9166666666666666
+   },
+   "baseline": {
+    "enter": 0.78,
+    "exit": 0.4,
+    "momentum": 0.4,
+    "recordings": 4,
+    "mean_abs_error": 2.75,
+    "mean_mae": 0.23611111109066357,
+    "mean_f1": 0.8067226890756303
+   },
+   "grid": [
+    {
+     "enter": 0.25,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 3.5,
+     "mean_mae": 0.3194444444147376,
+     "mean_f1": 0.75
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 4.75,
+     "mean_mae": 0.44861111106790896,
+     "mean_f1": 0.5707581891792418
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.5,
+     "mean_mae": 0.21527777775906637,
+     "mean_f1": 0.8352941176470587
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 3.75,
+     "mean_mae": 0.34027777774633483,
+     "mean_f1": 0.717032967032967
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 3.5,
+     "mean_mae": 0.3124999999716435,
+     "mean_f1": 0.7384615384615385
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.25,
+     "mean_mae": 0.1944444444274691,
+     "mean_f1": 0.8602941176470589
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.5,
+     "mean_mae": 0.21527777775906637,
+     "mean_f1": 0.8352941176470587
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.5,
+     "mean_mae": 0.12499999998958333,
+     "mean_f1": 0.9166666666666666
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.25,
+     "mean_mae": 0.1944444444274691,
+     "mean_f1": 0.8602941176470589
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 3.5,
+     "mean_mae": 0.3194444444147376,
+     "mean_f1": 0.75
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 4.75,
+     "mean_mae": 0.44861111106790896,
+     "mean_f1": 0.5707581891792418
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.5,
+     "mean_mae": 0.21527777775906637,
+     "mean_f1": 0.8352941176470587
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 3.75,
+     "mean_mae": 0.34027777774633483,
+     "mean_f1": 0.717032967032967
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 3.5,
+     "mean_mae": 0.3124999999716435,
+     "mean_f1": 0.7384615384615385
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.25,
+     "mean_mae": 0.1944444444274691,
+     "mean_f1": 0.8602941176470589
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.5,
+     "mean_mae": 0.21527777775906637,
+     "mean_f1": 0.8352941176470587
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.5,
+     "mean_mae": 0.12499999998958333,
+     "mean_f1": 0.9166666666666666
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.25,
+     "mean_mae": 0.1944444444274691,
+     "mean_f1": 0.8602941176470589
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 3.5,
+     "mean_mae": 0.3194444444147376,
+     "mean_f1": 0.75
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 4.75,
+     "mean_mae": 0.44861111106790896,
+     "mean_f1": 0.5707581891792418
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.5,
+     "mean_mae": 0.21527777775906637,
+     "mean_f1": 0.8352941176470587
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 3.75,
+     "mean_mae": 0.34027777774633483,
+     "mean_f1": 0.717032967032967
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 3.5,
+     "mean_mae": 0.3124999999716435,
+     "mean_f1": 0.7384615384615385
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.25,
+     "mean_mae": 0.1944444444274691,
+     "mean_f1": 0.8602941176470589
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.5,
+     "mean_mae": 0.21527777775906637,
+     "mean_f1": 0.8352941176470587
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.5,
+     "mean_mae": 0.12499999998958333,
+     "mean_f1": 0.9166666666666666
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.25,
+     "mean_mae": 0.1944444444274691,
+     "mean_f1": 0.8602941176470589
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 3.5,
+     "mean_mae": 0.3194444444147376,
+     "mean_f1": 0.75
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 4.75,
+     "mean_mae": 0.44861111106790896,
+     "mean_f1": 0.5707581891792418
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.5,
+     "mean_mae": 0.21527777775906637,
+     "mean_f1": 0.8352941176470587
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 3.75,
+     "mean_mae": 0.34027777774633483,
+     "mean_f1": 0.717032967032967
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 3.5,
+     "mean_mae": 0.3124999999716435,
+     "mean_f1": 0.7384615384615385
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.25,
+     "mean_mae": 0.1944444444274691,
+     "mean_f1": 0.8602941176470589
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.5,
+     "mean_mae": 0.21527777775906637,
+     "mean_f1": 0.8352941176470587
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.5,
+     "mean_mae": 0.12499999998958333,
+     "mean_f1": 0.9166666666666666
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.25,
+     "mean_mae": 0.1944444444274691,
+     "mean_f1": 0.8602941176470589
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 3.5,
+     "mean_mae": 0.3194444444147376,
+     "mean_f1": 0.75
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 4.75,
+     "mean_mae": 0.44861111106790896,
+     "mean_f1": 0.5707581891792418
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.5,
+     "mean_mae": 0.21527777775906637,
+     "mean_f1": 0.8352941176470587
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 3.75,
+     "mean_mae": 0.34027777774633483,
+     "mean_f1": 0.717032967032967
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 3.5,
+     "mean_mae": 0.3124999999716435,
+     "mean_f1": 0.7384615384615385
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.25,
+     "mean_mae": 0.1944444444274691,
+     "mean_f1": 0.8602941176470589
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.5,
+     "mean_mae": 0.21527777775906637,
+     "mean_f1": 0.8352941176470587
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.5,
+     "mean_mae": 0.12499999998958333,
+     "mean_f1": 0.9166666666666666
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.25,
+     "mean_mae": 0.1944444444274691,
+     "mean_f1": 0.8602941176470589
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 3.5,
+     "mean_mae": 0.3194444444147376,
+     "mean_f1": 0.75
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 4.75,
+     "mean_mae": 0.44861111106790896,
+     "mean_f1": 0.5707581891792418
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.5,
+     "mean_mae": 0.21527777775906637,
+     "mean_f1": 0.8352941176470587
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 3.75,
+     "mean_mae": 0.34027777774633483,
+     "mean_f1": 0.717032967032967
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 3.5,
+     "mean_mae": 0.3124999999716435,
+     "mean_f1": 0.7384615384615385
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.25,
+     "mean_mae": 0.1944444444274691,
+     "mean_f1": 0.8602941176470589
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.5,
+     "mean_mae": 0.21527777775906637,
+     "mean_f1": 0.8352941176470587
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.5,
+     "mean_mae": 0.12499999998958333,
+     "mean_f1": 0.9166666666666666
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.25,
+     "mean_mae": 0.1944444444274691,
+     "mean_f1": 0.8602941176470589
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 3.5,
+     "mean_mae": 0.3194444444147376,
+     "mean_f1": 0.75
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 4.75,
+     "mean_mae": 0.44861111106790896,
+     "mean_f1": 0.5707581891792418
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.5,
+     "mean_mae": 0.21527777775906637,
+     "mean_f1": 0.8352941176470587
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 3.75,
+     "mean_mae": 0.34027777774633483,
+     "mean_f1": 0.717032967032967
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 3.5,
+     "mean_mae": 0.3124999999716435,
+     "mean_f1": 0.7384615384615385
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.25,
+     "mean_mae": 0.1944444444274691,
+     "mean_f1": 0.8602941176470589
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 4,
+     "mean_abs_error": 1.75,
+     "mean_mae": 0.14583333332118056,
+     "mean_f1": 0.8970588235294118
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 4,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.1736111110958719,
+     "mean_f1": 0.8823529411764706
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 4,
+     "mean_abs_error": 2.75,
+     "mean_mae": 0.23611111109066357,
+     "mean_f1": 0.8067226890756303
+    }
+   ]
+  },
+  "jumping_jack": {
+   "best": {
+    "enter": 0.25,
+    "exit": 0.1,
+    "momentum": 0.4,
+    "recordings": 5,
+    "mean_abs_error": 1.0,
+    "mean_mae": 0.09999999999,
+    "mean_f1": 0.96
+   },
+   "baseline": {
+    "enter": 0.78,
+    "exit": 0.4,
+    "momentum": 0.4,
+    "recordings": 5,
+    "mean_abs_error": 1.6,
+    "mean_mae": 0.159999999984,
+    "mean_f1": 0.8428571428571429
+   },
+   "grid": [
+    {
+     "enter": 0.25,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.19999999998,
+     "mean_f1": 0.8933333333333333
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.8,
+     "mean_mae": 0.17999999998199998,
+     "mean_f1": 0.8881987577639752
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.8961038961038963
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.239999999976,
+     "mean_f1": 0.8243943191311613
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.0,
+     "mean_mae": 0.09999999999,
+     "mean_f1": 0.96
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.4,
+     "mean_mae": 0.139999999986,
+     "mean_f1": 0.9481481481481481
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.9290322580645161
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.19999999998,
+     "mean_f1": 0.9333333333333332
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.8,
+     "mean_mae": 0.179999999982,
+     "mean_f1": 0.9379310344827587
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 5.0,
+     "mean_mae": 0.49999999995,
+     "mean_f1": 0.8251105216622457
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.19999999998,
+     "mean_f1": 0.8933333333333333
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.8,
+     "mean_mae": 0.17999999998199998,
+     "mean_f1": 0.8881987577639752
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.8961038961038963
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.239999999976,
+     "mean_f1": 0.8243943191311613
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.0,
+     "mean_mae": 0.09999999999,
+     "mean_f1": 0.96
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.4,
+     "mean_mae": 0.139999999986,
+     "mean_f1": 0.9481481481481481
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.9290322580645161
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.19999999998,
+     "mean_f1": 0.9333333333333332
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.8,
+     "mean_mae": 0.179999999982,
+     "mean_f1": 0.9379310344827587
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 5.0,
+     "mean_mae": 0.49999999995,
+     "mean_f1": 0.8251105216622457
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.19999999998,
+     "mean_f1": 0.8933333333333333
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.8,
+     "mean_mae": 0.17999999998199998,
+     "mean_f1": 0.8881987577639752
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.8961038961038963
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.239999999976,
+     "mean_f1": 0.8243943191311613
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.0,
+     "mean_mae": 0.09999999999,
+     "mean_f1": 0.96
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.4,
+     "mean_mae": 0.139999999986,
+     "mean_f1": 0.9481481481481481
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.9290322580645161
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.19999999998,
+     "mean_f1": 0.9333333333333332
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.8,
+     "mean_mae": 0.179999999982,
+     "mean_f1": 0.9379310344827587
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 5.0,
+     "mean_mae": 0.49999999995,
+     "mean_f1": 0.8251105216622457
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.19999999998,
+     "mean_f1": 0.8933333333333333
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.8,
+     "mean_mae": 0.17999999998199998,
+     "mean_f1": 0.8881987577639752
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.8961038961038963
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.239999999976,
+     "mean_f1": 0.8243943191311613
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.0,
+     "mean_mae": 0.09999999999,
+     "mean_f1": 0.96
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.4,
+     "mean_mae": 0.139999999986,
+     "mean_f1": 0.9481481481481481
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.9290322580645161
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.19999999998,
+     "mean_f1": 0.9333333333333332
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.8,
+     "mean_mae": 0.179999999982,
+     "mean_f1": 0.9379310344827587
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 5.0,
+     "mean_mae": 0.49999999995,
+     "mean_f1": 0.8251105216622457
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.19999999998,
+     "mean_f1": 0.8933333333333333
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.8,
+     "mean_mae": 0.17999999998199998,
+     "mean_f1": 0.8881987577639752
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.8961038961038963
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.239999999976,
+     "mean_f1": 0.8243943191311613
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.0,
+     "mean_mae": 0.09999999999,
+     "mean_f1": 0.96
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.4,
+     "mean_mae": 0.139999999986,
+     "mean_f1": 0.9481481481481481
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.9290322580645161
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.19999999998,
+     "mean_f1": 0.9333333333333332
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.8,
+     "mean_mae": 0.179999999982,
+     "mean_f1": 0.9379310344827587
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 5.0,
+     "mean_mae": 0.49999999995,
+     "mean_f1": 0.8251105216622457
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.19999999998,
+     "mean_f1": 0.8933333333333333
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.8,
+     "mean_mae": 0.17999999998199998,
+     "mean_f1": 0.8881987577639752
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.8961038961038963
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.239999999976,
+     "mean_f1": 0.8243943191311613
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.0,
+     "mean_mae": 0.09999999999,
+     "mean_f1": 0.96
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.4,
+     "mean_mae": 0.139999999986,
+     "mean_f1": 0.9481481481481481
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.9290322580645161
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.19999999998,
+     "mean_f1": 0.9333333333333332
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.8,
+     "mean_mae": 0.179999999982,
+     "mean_f1": 0.9379310344827587
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 5.6,
+     "mean_mae": 0.559999999944,
+     "mean_f1": 0.8121794871794872
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 5.0,
+     "mean_mae": 0.49999999995,
+     "mean_f1": 0.8251105216622457
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.0,
+     "mean_mae": 0.19999999998,
+     "mean_f1": 0.8933333333333333
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.8,
+     "mean_mae": 0.17999999998199998,
+     "mean_f1": 0.8881987577639752
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.8961038961038963
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.239999999976,
+     "mean_f1": 0.8243943191311613
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.0,
+     "mean_mae": 0.09999999999,
+     "mean_f1": 0.96
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.4,
+     "mean_mae": 0.139999999986,
+     "mean_f1": 0.9481481481481481
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.9428571428571428
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.8428571428571429
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.8428571428571429
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.8428571428571429
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 1.6,
+     "mean_mae": 0.159999999984,
+     "mean_f1": 0.8428571428571429
+    }
+   ]
+  },
+  "push_up": {
+   "best": {
+    "enter": 0.25,
+    "exit": 0.15,
+    "momentum": 0.0,
+    "recordings": 5,
+    "mean_abs_error": 2.2,
+    "mean_mae": 0.21999999997800002,
+    "mean_f1": 0.6363636363636364
+   },
+   "baseline": {
+    "enter": 0.78,
+    "exit": 0.4,
+    "momentum": 0.4,
+    "recordings": 5,
+    "mean_abs_error": 3.2,
+    "mean_mae": 0.319999999968,
+    "mean_f1": 0.5423465423465423
+   },
+   "grid": [
+    {
+     "enter": 0.25,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.34444444440950617,
+     "mean_f1": 0.5506493506493506
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 4.0,
+     "mean_mae": 0.40666666662525924,
+     "mean_f1": 0.503030303030303
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 4.2,
+     "mean_mae": 0.42666666662325925,
+     "mean_f1": 0.4666666666666667
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 5.0,
+     "mean_mae": 0.5111111110587654,
+     "mean_f1": 0.4
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.2622222221957531,
+     "mean_f1": 0.718716577540107
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.34222222218775306,
+     "mean_f1": 0.6390785684903332
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.8,
+     "mean_mae": 0.3844444444055062,
+     "mean_f1": 0.503030303030303
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 4.6,
+     "mean_mae": 0.4688888888410124,
+     "mean_f1": 0.43636363636363634
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.6363636363636364
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.25999999997400003,
+     "mean_f1": 0.6474747474747475
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.6312354312354312
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.6,
+     "mean_mae": 0.359999999964,
+     "mean_f1": 0.6060606060606061
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.5919191919191918
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.239999999976,
+     "mean_f1": 0.6206773618538325
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.5867909867909867
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.33999999996600005,
+     "mean_f1": 0.6363636363636365
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.8,
+     "mean_mae": 0.2844444444155062,
+     "mean_f1": 0.5470813397129187
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.24222222219775308,
+     "mean_f1": 0.5532163742690058
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.24222222219775308,
+     "mean_f1": 0.5895800106326423
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.5867909867909867
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.3266666666332593,
+     "mean_f1": 0.5172714394682358
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.3266666666332593,
+     "mean_f1": 0.5363190585158548
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.2644444444175062,
+     "mean_f1": 0.5557393483709273
+    },
+    {
+     "enter": 0.25,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 2.8,
+     "mean_mae": 0.28222222219375304,
+     "mean_f1": 0.5784688995215311
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.34444444440950617,
+     "mean_f1": 0.5506493506493506
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 4.0,
+     "mean_mae": 0.40666666662525924,
+     "mean_f1": 0.503030303030303
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 4.2,
+     "mean_mae": 0.42666666662325925,
+     "mean_f1": 0.4666666666666667
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 5.0,
+     "mean_mae": 0.5111111110587654,
+     "mean_f1": 0.4
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.2622222221957531,
+     "mean_f1": 0.718716577540107
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.34222222218775306,
+     "mean_f1": 0.6390785684903332
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.8,
+     "mean_mae": 0.3844444444055062,
+     "mean_f1": 0.503030303030303
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 4.6,
+     "mean_mae": 0.4688888888410124,
+     "mean_f1": 0.43636363636363634
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.6363636363636364
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.25999999997400003,
+     "mean_f1": 0.6474747474747475
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.6312354312354312
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.6,
+     "mean_mae": 0.359999999964,
+     "mean_f1": 0.6060606060606061
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.5919191919191918
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.239999999976,
+     "mean_f1": 0.6206773618538325
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.5867909867909867
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.33999999996600005,
+     "mean_f1": 0.6363636363636365
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.8,
+     "mean_mae": 0.2844444444155062,
+     "mean_f1": 0.5470813397129187
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.24222222219775308,
+     "mean_f1": 0.5532163742690058
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.24222222219775308,
+     "mean_f1": 0.5895800106326423
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.5867909867909867
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.3266666666332593,
+     "mean_f1": 0.5172714394682358
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.3266666666332593,
+     "mean_f1": 0.5363190585158548
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.2644444444175062,
+     "mean_f1": 0.5557393483709273
+    },
+    {
+     "enter": 0.3,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 2.8,
+     "mean_mae": 0.28222222219375304,
+     "mean_f1": 0.5784688995215311
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.34444444440950617,
+     "mean_f1": 0.5506493506493506
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 4.0,
+     "mean_mae": 0.40666666662525924,
+     "mean_f1": 0.503030303030303
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 4.2,
+     "mean_mae": 0.42666666662325925,
+     "mean_f1": 0.4666666666666667
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 5.0,
+     "mean_mae": 0.5111111110587654,
+     "mean_f1": 0.4
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.2622222221957531,
+     "mean_f1": 0.718716577540107
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.34222222218775306,
+     "mean_f1": 0.6390785684903332
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.8,
+     "mean_mae": 0.3844444444055062,
+     "mean_f1": 0.503030303030303
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 4.6,
+     "mean_mae": 0.4688888888410124,
+     "mean_f1": 0.43636363636363634
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.6363636363636364
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.25999999997400003,
+     "mean_f1": 0.6474747474747475
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.6312354312354312
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.6,
+     "mean_mae": 0.359999999964,
+     "mean_f1": 0.6060606060606061
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.5919191919191918
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.239999999976,
+     "mean_f1": 0.6206773618538325
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.5867909867909867
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.33999999996600005,
+     "mean_f1": 0.6363636363636365
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.8,
+     "mean_mae": 0.2844444444155062,
+     "mean_f1": 0.5470813397129187
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.24222222219775308,
+     "mean_f1": 0.5532163742690058
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.24222222219775308,
+     "mean_f1": 0.5895800106326423
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.5867909867909867
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.3266666666332593,
+     "mean_f1": 0.5172714394682358
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.3266666666332593,
+     "mean_f1": 0.5363190585158548
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.2644444444175062,
+     "mean_f1": 0.5557393483709273
+    },
+    {
+     "enter": 0.35,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 2.8,
+     "mean_mae": 0.28222222219375304,
+     "mean_f1": 0.5784688995215311
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.34444444440950617,
+     "mean_f1": 0.5506493506493506
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 4.0,
+     "mean_mae": 0.40666666662525924,
+     "mean_f1": 0.503030303030303
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 4.2,
+     "mean_mae": 0.42666666662325925,
+     "mean_f1": 0.4666666666666667
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 5.0,
+     "mean_mae": 0.5111111110587654,
+     "mean_f1": 0.4
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.2622222221957531,
+     "mean_f1": 0.718716577540107
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.34222222218775306,
+     "mean_f1": 0.6390785684903332
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.8,
+     "mean_mae": 0.3844444444055062,
+     "mean_f1": 0.503030303030303
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 4.6,
+     "mean_mae": 0.4688888888410124,
+     "mean_f1": 0.43636363636363634
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.6363636363636364
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.25999999997400003,
+     "mean_f1": 0.6474747474747475
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.6312354312354312
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.6,
+     "mean_mae": 0.359999999964,
+     "mean_f1": 0.6060606060606061
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.5919191919191918
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.239999999976,
+     "mean_f1": 0.6206773618538325
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.5867909867909867
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.33999999996600005,
+     "mean_f1": 0.6363636363636365
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.8,
+     "mean_mae": 0.2844444444155062,
+     "mean_f1": 0.5470813397129187
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.24222222219775308,
+     "mean_f1": 0.5532163742690058
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.24222222219775308,
+     "mean_f1": 0.5895800106326423
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.5867909867909867
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.3266666666332593,
+     "mean_f1": 0.5172714394682358
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.3266666666332593,
+     "mean_f1": 0.5363190585158548
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.2644444444175062,
+     "mean_f1": 0.5557393483709273
+    },
+    {
+     "enter": 0.4,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 2.8,
+     "mean_mae": 0.28222222219375304,
+     "mean_f1": 0.5784688995215311
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.34444444440950617,
+     "mean_f1": 0.5506493506493506
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 4.0,
+     "mean_mae": 0.40666666662525924,
+     "mean_f1": 0.503030303030303
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 4.2,
+     "mean_mae": 0.42666666662325925,
+     "mean_f1": 0.4666666666666667
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 5.0,
+     "mean_mae": 0.5111111110587654,
+     "mean_f1": 0.4
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.2622222221957531,
+     "mean_f1": 0.718716577540107
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.34222222218775306,
+     "mean_f1": 0.6390785684903332
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.8,
+     "mean_mae": 0.3844444444055062,
+     "mean_f1": 0.503030303030303
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 4.6,
+     "mean_mae": 0.4688888888410124,
+     "mean_f1": 0.43636363636363634
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.6363636363636364
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.25999999997400003,
+     "mean_f1": 0.6474747474747475
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.6312354312354312
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.6,
+     "mean_mae": 0.359999999964,
+     "mean_f1": 0.6060606060606061
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.5919191919191918
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.239999999976,
+     "mean_f1": 0.6206773618538325
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.5867909867909867
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.33999999996600005,
+     "mean_f1": 0.6363636363636365
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.8,
+     "mean_mae": 0.2844444444155062,
+     "mean_f1": 0.5470813397129187
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.24222222219775308,
+     "mean_f1": 0.5532163742690058
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.24222222219775308,
+     "mean_f1": 0.5895800106326423
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.5867909867909867
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.3266666666332593,
+     "mean_f1": 0.5172714394682358
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.3266666666332593,
+     "mean_f1": 0.5363190585158548
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.2644444444175062,
+     "mean_f1": 0.5557393483709273
+    },
+    {
+     "enter": 0.5,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 2.8,
+     "mean_mae": 0.28222222219375304,
+     "mean_f1": 0.5784688995215311
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.34444444440950617,
+     "mean_f1": 0.5506493506493506
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 4.0,
+     "mean_mae": 0.40666666662525924,
+     "mean_f1": 0.503030303030303
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 4.2,
+     "mean_mae": 0.42666666662325925,
+     "mean_f1": 0.4666666666666667
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 5.0,
+     "mean_mae": 0.5111111110587654,
+     "mean_f1": 0.4
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.2622222221957531,
+     "mean_f1": 0.718716577540107
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.34222222218775306,
+     "mean_f1": 0.6390785684903332
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.8,
+     "mean_mae": 0.3844444444055062,
+     "mean_f1": 0.503030303030303
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 4.6,
+     "mean_mae": 0.4688888888410124,
+     "mean_f1": 0.43636363636363634
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.6363636363636364
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.25999999997400003,
+     "mean_f1": 0.6474747474747475
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.6312354312354312
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.6,
+     "mean_mae": 0.359999999964,
+     "mean_f1": 0.6060606060606061
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.5919191919191918
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.239999999976,
+     "mean_f1": 0.6206773618538325
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.5867909867909867
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.33999999996600005,
+     "mean_f1": 0.6363636363636365
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.8,
+     "mean_mae": 0.2844444444155062,
+     "mean_f1": 0.5470813397129187
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.24222222219775308,
+     "mean_f1": 0.5532163742690058
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.24222222219775308,
+     "mean_f1": 0.5895800106326423
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.5867909867909867
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.3266666666332593,
+     "mean_f1": 0.5172714394682358
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.3266666666332593,
+     "mean_f1": 0.5363190585158548
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.2644444444175062,
+     "mean_f1": 0.5557393483709273
+    },
+    {
+     "enter": 0.6,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 2.8,
+     "mean_mae": 0.28222222219375304,
+     "mean_f1": 0.5784688995215311
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.05,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.34444444440950617,
+     "mean_f1": 0.5506493506493506
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.05,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 4.0,
+     "mean_mae": 0.40666666662525924,
+     "mean_f1": 0.503030303030303
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.05,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 4.2,
+     "mean_mae": 0.42666666662325925,
+     "mean_f1": 0.4666666666666667
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.05,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 5.0,
+     "mean_mae": 0.5111111110587654,
+     "mean_f1": 0.4
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.1,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.2622222221957531,
+     "mean_f1": 0.718716577540107
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.1,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.34222222218775306,
+     "mean_f1": 0.6390785684903332
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.1,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.8,
+     "mean_mae": 0.3844444444055062,
+     "mean_f1": 0.503030303030303
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.1,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 4.6,
+     "mean_mae": 0.4688888888410124,
+     "mean_f1": 0.43636363636363634
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.15,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.6363636363636364
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.15,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.6,
+     "mean_mae": 0.25999999997400003,
+     "mean_f1": 0.6474747474747475
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.15,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.6312354312354312
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.15,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.6,
+     "mean_mae": 0.359999999964,
+     "mean_f1": 0.6060606060606061
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.2,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.5919191919191918
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.2,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.239999999976,
+     "mean_f1": 0.6206773618538325
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.2,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.5867909867909867
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.2,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.4,
+     "mean_mae": 0.33999999996600005,
+     "mean_f1": 0.6363636363636365
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.3,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.24222222219775308,
+     "mean_f1": 0.5332163742690058
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.3,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.5555555555555556
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.3,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 2.8,
+     "mean_mae": 0.279999999972,
+     "mean_f1": 0.5874747474747475
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.3,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.5867909867909867
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.4,
+     "momentum": 0.0,
+     "recordings": 5,
+     "mean_abs_error": 2.4,
+     "mean_mae": 0.24222222219775308,
+     "mean_f1": 0.4921637426900586
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.4,
+     "momentum": 0.1,
+     "recordings": 5,
+     "mean_abs_error": 2.2,
+     "mean_mae": 0.21999999997800002,
+     "mean_f1": 0.5155555555555555
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.4,
+     "momentum": 0.2,
+     "recordings": 5,
+     "mean_abs_error": 2.8,
+     "mean_mae": 0.279999999972,
+     "mean_f1": 0.5511111111111111
+    },
+    {
+     "enter": 0.78,
+     "exit": 0.4,
+     "momentum": 0.4,
+     "recordings": 5,
+     "mean_abs_error": 3.2,
+     "mean_mae": 0.319999999968,
+     "mean_f1": 0.5423465423465423
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,346 @@
+{
+ "folds": [
+  "1c9c56ae618d20e2b19897daf0c068e9603c18da44e868e3bc3ba8851dae0927",
+  "26cfa8dc222512010f68c163eb5e4553b0c84d34618a2c17aa20423a684061d8",
+  "272f0b05db783c83e4ed00d64283dc3e4043ec794a0e5c3e59132f853d8bbe06",
+  "3342e99482600bc17aa267506f5cb5f9f5854ef323f3bd7a1b8b6cad959dc2e9",
+  "583835804155ff134863c00b07a5e412d4860ec6dfe83ea34c019d784567373e",
+  "75943d489a68173f61319ca43b744dbcb436719e70f1a58f9f33e05f7a1783e9",
+  "84cddbc84f8d5803d3df68ce5f21d9c4dfaeec12c926a972aa82ab468efe0ea1",
+  "916fbf42a801a2855ed24e729fab6803dc1b729c137b9e20b8331270043767c3",
+  "94a87f4ef3e47d820281630e28ccaf25850f98416639386ebdc4efff2848335b",
+  "a9ef8f2a2881d38109511d820f2a3ad8cab9d0c79c7fc0d49c7375fdbf08d3f1",
+  "b666979ff4e390e584374c56f7c6f112aed46aa99bbc3619f8ccc7eb58eb2104",
+  "c7f59132be29f5f9b88b19131bc0285d95c098a6e0ef5955a88cea6fbd7c0b65",
+  "e7db31da5ea6b1d4d7ecbb77b8cc3920d61e0f8b40d3a308647949fae02e01cc",
+  "fff2d485ba9e550e33ed13cfd9b88751a1b43c4c7afbf4204987493a58492e5e"
+ ],
+ "rows": [
+  {
+   "source_id": "1c9c56ae618d20e2b19897daf0c068e9603c18da44e868e3bc3ba8851dae0927",
+   "exercise": "push_up",
+   "split": "train",
+   "frames": 631,
+   "valid_frames": 395,
+   "predicted_count": 1,
+   "reference_count": 10,
+   "count_error": -9,
+   "mae": 0.89999999991,
+   "obo": 0.0,
+   "timing": {
+    "precision": 1.0,
+    "recall": 0.1,
+    "f1": 0.18181818181818182,
+    "matched": 1,
+    "predicted": 1,
+    "reference": 10,
+    "mean_timing_error_us": 455034.0
+   }
+  },
+  {
+   "source_id": "26cfa8dc222512010f68c163eb5e4553b0c84d34618a2c17aa20423a684061d8",
+   "exercise": "push_up",
+   "split": "train",
+   "frames": 439,
+   "valid_frames": 439,
+   "predicted_count": 10,
+   "reference_count": 10,
+   "count_error": 0,
+   "mae": 0.0,
+   "obo": 1.0,
+   "timing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matched": 10,
+    "predicted": 10,
+    "reference": 10,
+    "mean_timing_error_us": 334666.7
+   }
+  },
+  {
+   "source_id": "272f0b05db783c83e4ed00d64283dc3e4043ec794a0e5c3e59132f853d8bbe06",
+   "exercise": "push_up",
+   "split": "train",
+   "frames": 466,
+   "valid_frames": 466,
+   "predicted_count": 9,
+   "reference_count": 9,
+   "count_error": 0,
+   "mae": 0.0,
+   "obo": 1.0,
+   "timing": {
+    "precision": 0.4444444444444444,
+    "recall": 0.4444444444444444,
+    "f1": 0.4444444444444444,
+    "matched": 4,
+    "predicted": 9,
+    "reference": 9,
+    "mean_timing_error_us": 438232.75
+   }
+  },
+  {
+   "source_id": "3342e99482600bc17aa267506f5cb5f9f5854ef323f3bd7a1b8b6cad959dc2e9",
+   "exercise": "push_up",
+   "split": "train",
+   "frames": 385,
+   "valid_frames": 385,
+   "predicted_count": 8,
+   "reference_count": 10,
+   "count_error": -2,
+   "mae": 0.19999999998,
+   "obo": 0.0,
+   "timing": {
+    "precision": 0.625,
+    "recall": 0.5,
+    "f1": 0.5555555555555556,
+    "matched": 5,
+    "predicted": 8,
+    "reference": 10,
+    "mean_timing_error_us": 348282.4
+   }
+  },
+  {
+   "source_id": "583835804155ff134863c00b07a5e412d4860ec6dfe83ea34c019d784567373e",
+   "exercise": "jumping_jack",
+   "split": "train",
+   "frames": 318,
+   "valid_frames": 318,
+   "predicted_count": 15,
+   "reference_count": 10,
+   "count_error": 5,
+   "mae": 0.49999999995,
+   "obo": 0.0,
+   "timing": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1": 0.8,
+    "matched": 10,
+    "predicted": 15,
+    "reference": 10,
+    "mean_timing_error_us": 241171.0
+   }
+  },
+  {
+   "source_id": "75943d489a68173f61319ca43b744dbcb436719e70f1a58f9f33e05f7a1783e9",
+   "exercise": "jumping_jack",
+   "split": "train",
+   "frames": 318,
+   "valid_frames": 318,
+   "predicted_count": 10,
+   "reference_count": 10,
+   "count_error": 0,
+   "mae": 0.0,
+   "obo": 1.0,
+   "timing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matched": 10,
+    "predicted": 10,
+    "reference": 10,
+    "mean_timing_error_us": 32846.2
+   }
+  },
+  {
+   "source_id": "84cddbc84f8d5803d3df68ce5f21d9c4dfaeec12c926a972aa82ab468efe0ea1",
+   "exercise": "jumping_jack",
+   "split": "train",
+   "frames": 304,
+   "valid_frames": 304,
+   "predicted_count": 10,
+   "reference_count": 10,
+   "count_error": 0,
+   "mae": 0.0,
+   "obo": 1.0,
+   "timing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matched": 10,
+    "predicted": 10,
+    "reference": 10,
+    "mean_timing_error_us": 29700.6
+   }
+  },
+  {
+   "source_id": "916fbf42a801a2855ed24e729fab6803dc1b729c137b9e20b8331270043767c3",
+   "exercise": "jab",
+   "split": "train",
+   "frames": 180,
+   "valid_frames": 180,
+   "predicted_count": 10,
+   "reference_count": 10,
+   "count_error": 0,
+   "mae": 0.0,
+   "obo": 1.0,
+   "timing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matched": 10,
+    "predicted": 10,
+    "reference": 10,
+    "mean_timing_error_us": 51248.4
+   }
+  },
+  {
+   "source_id": "94a87f4ef3e47d820281630e28ccaf25850f98416639386ebdc4efff2848335b",
+   "exercise": "jab",
+   "split": "train",
+   "frames": 403,
+   "valid_frames": 403,
+   "predicted_count": 6,
+   "reference_count": 12,
+   "count_error": -6,
+   "mae": 0.49999999995833333,
+   "obo": 0.0,
+   "timing": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666,
+    "matched": 6,
+    "predicted": 6,
+    "reference": 12,
+    "mean_timing_error_us": 199742.16666666666
+   }
+  },
+  {
+   "source_id": "a9ef8f2a2881d38109511d820f2a3ad8cab9d0c79c7fc0d49c7375fdbf08d3f1",
+   "exercise": "jumping_jack",
+   "split": "train",
+   "frames": 332,
+   "valid_frames": 332,
+   "predicted_count": 10,
+   "reference_count": 10,
+   "count_error": 0,
+   "mae": 0.0,
+   "obo": 1.0,
+   "timing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matched": 10,
+    "predicted": 10,
+    "reference": 10,
+    "mean_timing_error_us": 30112.2
+   }
+  },
+  {
+   "source_id": "b666979ff4e390e584374c56f7c6f112aed46aa99bbc3619f8ccc7eb58eb2104",
+   "exercise": "push_up",
+   "split": "train",
+   "frames": 498,
+   "valid_frames": 498,
+   "predicted_count": 10,
+   "reference_count": 10,
+   "count_error": 0,
+   "mae": 0.0,
+   "obo": 1.0,
+   "timing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matched": 10,
+    "predicted": 10,
+    "reference": 10,
+    "mean_timing_error_us": 331385.6
+   }
+  },
+  {
+   "source_id": "c7f59132be29f5f9b88b19131bc0285d95c098a6e0ef5955a88cea6fbd7c0b65",
+   "exercise": "jab",
+   "split": "train",
+   "frames": 198,
+   "valid_frames": 198,
+   "predicted_count": 10,
+   "reference_count": 10,
+   "count_error": 0,
+   "mae": 0.0,
+   "obo": 1.0,
+   "timing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matched": 10,
+    "predicted": 10,
+    "reference": 10,
+    "mean_timing_error_us": 36791.5
+   }
+  },
+  {
+   "source_id": "e7db31da5ea6b1d4d7ecbb77b8cc3920d61e0f8b40d3a308647949fae02e01cc",
+   "exercise": "jab",
+   "split": "train",
+   "frames": 367,
+   "valid_frames": 345,
+   "predicted_count": 9,
+   "reference_count": 9,
+   "count_error": 0,
+   "mae": 0.0,
+   "obo": 1.0,
+   "timing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matched": 9,
+    "predicted": 9,
+    "reference": 9,
+    "mean_timing_error_us": 220931.88888888888
+   }
+  },
+  {
+   "source_id": "fff2d485ba9e550e33ed13cfd9b88751a1b43c4c7afbf4204987493a58492e5e",
+   "exercise": "jumping_jack",
+   "split": "train",
+   "frames": 311,
+   "valid_frames": 311,
+   "predicted_count": 10,
+   "reference_count": 10,
+   "count_error": 0,
+   "mae": 0.0,
+   "obo": 1.0,
+   "timing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matched": 10,
+    "predicted": 10,
+    "reference": 10,
+    "mean_timing_error_us": 103857.7
+   }
+  }
+ ],
+ "summary": {
+  "jab": {
+   "recordings": 4,
+   "reference_reps": 41,
+   "predicted_reps": 35,
+   "mae": 0.12499999998958333,
+   "obo": 0.75,
+   "f1": 0.9166666666666666,
+   "precision": 1.0,
+   "recall": 0.875
+  },
+  "jumping_jack": {
+   "recordings": 5,
+   "reference_reps": 50,
+   "predicted_reps": 55,
+   "mae": 0.09999999999,
+   "obo": 0.8,
+   "f1": 0.96,
+   "precision": 0.9333333333333332,
+   "recall": 1.0
+  },
+  "push_up": {
+   "recordings": 5,
+   "reference_reps": 49,
+   "predicted_reps": 38,
+   "mae": 0.21999999997800002,
+   "obo": 0.6,
+   "f1": 0.6363636363636364,
+   "precision": 0.8138888888888889,
+   "recall": 0.6088888888888888
+  }
+ }
+}
