@@ -65,10 +65,14 @@ def class_pos_weight(Y, train_mask):
     return torch.tensor(np.clip(weight, 1.0, 50.0), dtype=torch.float32)
 
 
-def make_loader(X, Y, metric, source, train_mask, own_weight, batch_size, seed):
+def sampling_weights(part, train_mask, own_weight):
+    return torch.tensor([own_weight if str(p) == "own_train" else 1.0
+                         for p in part[train_mask]], dtype=torch.double)
+
+
+def make_loader(X, Y, metric, part, train_mask, own_weight, batch_size, seed):
     indices = np.where(train_mask)[0]
-    weights = torch.tensor([own_weight if str(s).startswith("own") else 1.0 for s in source[indices]],
-                           dtype=torch.double)
+    weights = sampling_weights(part, train_mask, own_weight)
     sampler = WeightedRandomSampler(weights, num_samples=len(indices), replacement=True,
                                     generator=torch.Generator().manual_seed(seed))
     dataset = TensorDataset(torch.from_numpy(X[indices]), torch.from_numpy(Y[indices]),
@@ -96,7 +100,7 @@ def train(args):
     random.seed(args.seed)
     np.random.seed(args.seed)
     data = load_dataset(args.dataset)
-    X, Y, metric, source = data["X"], data["Y"], data["metric"], data["source"]
+    X, Y, metric = data["X"], data["Y"], data["metric"]
     train_mask, val_mask = build_split(data, exclude=args.exclude, include_holdout=args.include_holdout)
     log(f"train examples: {int(train_mask.sum())}, validation examples: {int(val_mask.sum())}")
     device = pick_device()
@@ -105,7 +109,7 @@ def train(args):
     loss_fn = torch.nn.BCEWithLogitsLoss(pos_weight=pos_weight)
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, factor=0.75, patience=6, mode="min")
-    loader = make_loader(X, Y, metric, source, train_mask, args.own_weight, args.batch_size, args.seed)
+    loader = make_loader(X, Y, metric, data["part"], train_mask, args.own_weight, args.batch_size, args.seed)
 
     miner = loss_metric = None
     if args.alpha > 0:
@@ -159,6 +163,10 @@ def train(args):
               "seed": args.seed, "batch_size": args.batch_size, "exclude": args.exclude,
               "include_holdout": args.include_holdout, "fixed_epochs": args.fixed_epochs,
               "dataset_sha256": hashlib.sha256(Path(args.dataset).read_bytes()).hexdigest()}
+    metadata_path = Path(args.dataset).with_name("dataset_meta.json")
+    if metadata_path.exists():
+        config["phase_policy"] = json.loads(metadata_path.read_text()).get("phase_policy")
+    config["sampling_policy"] = "partition-own-train-v1"
     checkpoint = {"state_dict": model.state_dict(), "config": config,
                   "best_val_loss": best_loss, "best_epoch": best_epoch}
     torch.save(checkpoint, args.out / "model.pt")

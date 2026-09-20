@@ -47,6 +47,8 @@ def main():
     checkpoint = torch.load(args.checkpoint, map_location="cpu", weights_only=False)
     config = checkpoint["config"]
     target = args.home / "candidates" / args.id
+    if target.exists():
+        raise ValueError("Candidate already exists; choose a new id to preserve saved evaluations")
     target.mkdir(parents=True, exist_ok=True)
     weights = target / "weights.pth"
     temporary = weights.with_suffix(".tmp")
@@ -74,7 +76,8 @@ def main():
         "epochs": config.get("fixed_epochs") or 60,
         "learning_rate": config.get("lr", 1e-3),
         "experimental": True,
-        "training": {"dataset_sha256": config.get("dataset_sha256"), "own_weight": config.get("own_weight")},
+        "training": {"dataset_sha256": config.get("dataset_sha256"), "own_weight": config.get("own_weight"),
+                     "phase_policy": config.get("phase_policy"), "sampling_policy": config.get("sampling_policy")},
         "validation": validation,
         "source_checkpoint": str(args.checkpoint),
     }

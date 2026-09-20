@@ -21,6 +21,7 @@ import numpy as np
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from features import normalize_sequence  # noqa: E402
+from phase_alignment import POLICY, align_examples  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 CLASSES = ["front_raise", "pull_up", "squat", "bench_pressing", "jump_jack",
@@ -102,6 +103,8 @@ def load_own(own_dir):
         if class_name is None:
             continue
         split = entry["split"]
+        if split not in {"train", "validation"}:
+            continue  # Test poses and labels are not training/preprocessing inputs.
         part = {"train": "own_train", "test": "own_test", "validation": "own_val"}.get(split, "own_other")
         data = np.load(own_dir / "poses" / (source_id + ".npz"))
         features, mask = normalize_sequence(data["xy"], data["score"], data["valid"])
@@ -136,7 +139,7 @@ def main():
     log(f"repcount examples: {len(repcount)} (holdout videos: {len(holdout)})")
     log(f"own examples: {len(own)} across {len(own_counts)} recordings")
 
-    examples = repcount + own
+    examples, alignment = align_examples(repcount + own)
     X = np.stack([e[0] for e in examples]).astype(np.float32)
     Y = np.stack([e[1] for e in examples]).astype(np.float32)
     metric = np.asarray([e[2] for e in examples], np.int64)
@@ -145,6 +148,7 @@ def main():
     frame = np.asarray([e[5] for e in examples], np.int64)
     part = np.asarray([e[6] for e in examples], dtype="U16")
 
+    args.out.mkdir(parents=True, exist_ok=True)
     np.savez_compressed(args.out / "dataset.npz", X=X, Y=Y, metric=metric,
                         class_name=class_name, source=source, frame=frame, part=part)
     parts, counts = np.unique(part, return_counts=True)
@@ -158,6 +162,8 @@ def main():
         "holdout_videos": holdout,
         "holdout_fraction": HOLDOUT_FRACTION,
         "seed": SEED,
+        "phase_policy": POLICY,
+        "phase_alignment": alignment,
         "sha256": hashlib.sha256((args.out / "dataset.npz").read_bytes()).hexdigest(),
     }
     (args.out / "dataset_meta.json").write_text(json.dumps(meta, indent=1))
