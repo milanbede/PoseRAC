@@ -85,6 +85,7 @@ class PhaseAlignmentTest(unittest.TestCase):
 
     def test_export_refuses_existing_candidate(self):
         import tempfile
+
         from export_candidate import main
         with tempfile.TemporaryDirectory() as directory:
             (Path(directory) / "candidates" / "existing").mkdir(parents=True)
