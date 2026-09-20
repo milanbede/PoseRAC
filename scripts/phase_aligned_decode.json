@@ -1,0 +1,6 @@
+{
+  "params": {
+    "default": {"enter": 0.78, "exit": 0.4, "momentum": 0.4}
+  },
+  "policy": "Fixed upstream thresholds; not tuned on evaluation clips"
+}
